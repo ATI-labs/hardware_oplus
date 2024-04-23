@@ -12,3 +12,4 @@ rw_dir_file(system_server, vndbinder_device)
 allow system_server vendor_proc_oplus_scheduler:dir search;
 
 allow system_server self:capability sys_module;
+rw_dir_file(system_server, vendor_sysfs_usb_supply)
